@@ -12,6 +12,7 @@ import numpy as np
 pages = [str(i) for i in range(1,5)]
 years_url = [str(i) for i in range(2000, 2018)]
 
+#a few containers 
 start_time = time()
 num_requests = 0
 names = []
@@ -20,6 +21,7 @@ imdb_ratings = []
 metascores = []
 votes = []
 
+#main body 
 for year_url in years_url:
     for page in pages:
         #request web contents
